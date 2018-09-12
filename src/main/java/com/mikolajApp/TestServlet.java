@@ -13,7 +13,7 @@ public class TestServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException{
         PrintWriter writer = resp.getWriter();
-        writer.print("Sprawdzam tylko czy dziala, test!");
+        writer.print("Sprawdzam tylko czy dziala, test!, little change");
 
     }
 }
